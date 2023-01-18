@@ -1,184 +1,157 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans&display=swap|EB+Garamond&display=swap|Archivo+Black&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV Lora Kumar</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script>
-$(document).ready(function(){
-  $(".menu-open").click(function(){
-    $("ul.menu").toggleClass("show");
-	$(".menu-open").toggleClass("cross");
-  });
-  
-  
-  
-
-
-const observer = new IntersectionObserver(entries => {
-
-  entries.forEach(entry => {
-    const square = entry.target.querySelector('.wrapper');
-
-    if (entry.isIntersecting) {
-
-      square.classList.add('animated');
-	  return; // if we added the class, exit the function
-    }
-
-    // We're not intersecting, so remove the class!
-    square.classList.remove('animated');
-  });
-});
-
-observer.observe(document.querySelector('.skillbox'));
-observer.observe(document.querySelector('.codedesign'));
-
-});
-
-
-</script>
-
-</head>
-
-<body>
-<nav>
-<div class="menu-open">
-<div class="burger-line"></div>
-
-</div>
-
-<ul class="menu">
-
-	<li class="active"><a href="index.html">Home</a></li>
-	<li><a href="edu.html">Experience</a></li>
-	<li><a href="projects.html">Web</a></li>
-	<li><a href="design.html"> Illustration </a></li>
-	<li><a href="about.html">About me</a></li>
-	
-</ul>
-
-</nav>
-
-<div class="content">
-
-
-
-<div class="intro">
-<div class="bg-holder design"></div>
-<div class="bg-holder diagram"></div>
-
-	<div class="introduction"><div class="img-frame"><img class="pentagon" src="images/lora.jpg" alt="" width="200" height="auto"/></div><span class="hello"> Hello, I’m&nbsp;Lora!</span><span class="cursor">I</span> 
-	<div class="three-dots"><div class="dot one">.</div><div class="dot two">.</div><div class="dot three">.</div></div>
-	<p class="descr main">
-Im a front-end developer, designer and illustrator. I like to bring my ideas to life</p>
-	</div>
-<br>
-<div class="two-buttons">
-<form class="cv-button" method="get" action="cv-lora.pdf">
-   <button class="download" type="submit" target="_blank">DOWNLOAD CV<div class="arrow"></div></button>
-</form>
-<a href="#tech" class="view"> VIEW PORTFOLIO</a>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-  <h2 id="tech"> Technologies</h2>
-  <div class="wrapper-section"> 
-  
-  <div class="bg-holder ui"></div>
-<div class="bg-holder code"></div>
-
-<!--
-<div class="skillbox">
-<div class="wrapper animated">
-  <div class="circle yellow medium">.</div>
-  <div class="circle gray medium">.</div>
-  <div class="circle purple small">j</div>
-  <div class="circle blue tiny">jQuery</div>
-  <div class="circle orange large noimg">css</div>
-  <div class="circle violet large">.</div>
-  <div class="circle pink superlarge">.</div>
-  </div>
-  </div> 
-  -->
-<div class="skillbox">  
-<ul class="wrapper technologies">
-<li class="html"><span>HTML</span></li>
-<li class="css"><span>CSS</span></li>
-<li class="js"><span>JS</span></li>
-<li class="ps"><span>PS</span></li>
-<li class="ai"><span>Ai</span></li>
-<li class="figma"><span>Figma</span></li>
-</ul>
- </div>
- </div>
- <br>
- <div class="codedesign">
-<ul class="wrapper widthHolder">
-<li class="design"><h3>design</h3> I like creating different visual content like ui/ux, icons, vectror and raster images, illustrations. </li>
-<li class="code"><h3>code</h3>I develop, code and animate my website using different technologies. </li>
-</ul>
-</div>
-
-<!--
-<ul class="software">
-<li class="code">code<span>.<span> </li>
-<li class="ui">ui<span>.<span></li>
-<li class="creativity">creativity<span>.<span></li>
-<li class="art">art<span>.<span></li>
-</ul>
-
--->
-
-
-<div class="wrapper-section"> 
- <div class="bg-holder bac"></div>
-<h2 id="skills"> Skills</h2>
-
- <ul class="skills">
-
- <li>bacachelor's degree of Software Technologies</li>
- <li>experirence in Front-End development</li>
- <li>experirence in Web Degign</li>
- <li>understanding princeples of UX/UX, experience with UML</li>
- <li>Microsoft office, Adobe Suite </li>
- <li> skilled in illustration and graphic design</li>
- <li> experience with 3D software (Blender) </li>
- <li> experience with animations and motion </li>
- <li>experience with Version control systems tools like SVN</li>
- <li> good at organizing and optimizing </li>
- <li> experience with wordpress </li>
-</ul>
- </div>
-
-
-
-
-
-<div class="centerl">
-
-<p class="contactme"><img src="images/phone.png" alt="" width="200" height="auto"> <strong>+359877202401</strong></p>
-<p class="contactme"><img src="images/linkedin.png" alt="" width="200" height="auto"> <a href="https://www.linkedin.com/in/lora-kumar-b6a321190/" target="_blank">https://www.linkedin.com/in/lora-kumar-b6a321190/</a></p>
-<p class="contactme"> <img src="images/mail.png" alt="" width="200" height="auto"><a href="mailto:loang728@gmail.com">loang728@gmail.com</a></p>
-
-
-</div>
-
-</div>
-</body>
-
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans&display=swap|EB+Garamond&display=swap|Archivo+Black&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CV Lora Kumar</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+           $(".menu-open").click(function(){
+             $("ul.menu").toggleClass("show");
+         	$(".menu-open").toggleClass("cross");
+           });
+            const observer = new IntersectionObserver(entries => {
+         
+           entries.forEach(entry => {
+             const square = entry.target.querySelector('.wrapper');
+         
+             if (entry.isIntersecting) {
+         
+               square.classList.add('animated');
+         	  return; // if we added the class, exit the function
+             }
+         
+             // We're not intersecting, so remove the class!
+             square.classList.remove('animated');
+           });
+         });
+         
+         observer.observe(document.querySelector('.skillbox'));
+         observer.observe(document.querySelector('.codedesign'));
+         
+         });
+         
+         
+      </script>
+   </head>
+   <body>
+      <nav>
+         <div class="menu-open">
+            <div class="burger-line"></div>
+         </div>
+         <ul class="menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="edu.html">Experience</a></li>
+            <li><a href="projects.html">Web</a></li>
+            <li><a href="design.html"> Illustration </a></li>
+            <li><a href="about.html">About me</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div class="intro">
+            <div class="bg-holder design"></div>
+            <div class="bg-holder diagram"></div>
+            <div class="introduction">
+               <div class="img-frame"><img class="pentagon" src="images/lora.jpg" alt="" width="200" height="auto"/></div>
+               <span class="hello"> Hello, I’m&nbsp;Lora!</span><span class="cursor">I</span> 
+               <div class="three-dots">
+                  <div class="dot one">.</div>
+                  <div class="dot two">.</div>
+                  <div class="dot three">.</div>
+               </div>
+               <p class="descr main">
+                  Im a front-end developer, designer and illustrator. I like to bring my ideas to life
+               </p>
+            </div>
+            <br>
+            <div class="two-buttons">
+               <form class="cv-button" method="get" action="cv-lora.pdf">
+                  <button class="download" type="submit" target="_blank">
+                     DOWNLOAD CV
+                     <div class="arrow"></div>
+                  </button>
+               </form>
+               <a href="#tech" class="view"> VIEW PORTFOLIO</a>
+            </div>
+         </div>
+         <h2 id="tech"> Technologies</h2>
+         <div class="wrapper-section">
+            <div class="bg-holder ui"></div>
+            <div class="bg-holder code"></div>
+            <!--
+               <div class="skillbox">
+               <div class="wrapper animated">
+                 <div class="circle yellow medium">.</div>
+                 <div class="circle gray medium">.</div>
+                 <div class="circle purple small">j</div>
+                 <div class="circle blue tiny">jQuery</div>
+                 <div class="circle orange large noimg">css</div>
+                 <div class="circle violet large">.</div>
+                 <div class="circle pink superlarge">.</div>
+                 </div>
+                 </div> 
+                 -->
+            <div class="skillbox">
+               <ul class="wrapper technologies">
+                  <li class="html"><span>HTML</span></li>
+                  <li class="css"><span>CSS</span></li>
+                  <li class="js"><span>JS</span></li>
+                  <li class="ps"><span>PS</span></li>
+                  <li class="ai"><span>Ai</span></li>
+                  <li class="figma"><span>Figma</span></li>
+               </ul>
+            </div>
+         </div>
+         <br>
+         <div class="codedesign">
+            <ul class="wrapper widthHolder">
+               <li class="design">
+                  <h3>design</h3>
+                  I like creating different visual content like ui/ux, icons, vectror and raster images, illustrations. 
+               </li>
+               <li class="code">
+                  <h3>code</h3>
+                  I develop, code and animate my website using different technologies. 
+               </li>
+            </ul>
+         </div>
+         <!--
+            <ul class="software">
+            <li class="code">code<span>.<span> </li>
+            <li class="ui">ui<span>.<span></li>
+            <li class="creativity">creativity<span>.<span></li>
+            <li class="art">art<span>.<span></li>
+            </ul>
+            
+            -->
+         <div class="wrapper-section">
+            <div class="bg-holder bac"></div>
+            <h2 id="skills"> Skills</h2>
+            <ul class="skills">
+               <li>bacachelor's degree of Software Technologies</li>
+               <li>experirence in Front-End development</li>
+               <li>experirence in Web Degign</li>
+               <li>understanding princeples of UX/UX, experience with UML</li>
+               <li>Microsoft office, Adobe Suite </li>
+               <li> skilled in illustration and graphic design</li>
+               <li> experience with 3D software (Blender) </li>
+               <li> experience with animations and motion </li>
+               <li>experience with Version control systems tools like SVN</li>
+               <li> good at organizing and optimizing </li>
+               <li> experience with wordpress </li>
+            </ul>
+         </div>
+         <div class="centerl">
+            <p class="contactme"><img src="images/phone.png" alt="" width="200" height="auto"> <strong>+359877202401</strong></p>
+            <p class="contactme"><img src="images/linkedin.png" alt="" width="200" height="auto"> <a href="https://www.linkedin.com/in/lora-kumar-b6a321190/" target="_blank">https://www.linkedin.com/in/lora-kumar-b6a321190/</a></p>
+            <p class="contactme"> <img src="images/mail.png" alt="" width="200" height="auto"><a href="mailto:loang728@gmail.com">loang728@gmail.com</a></p>
+         </div>
+      </div>
+   </body>
 </html>
