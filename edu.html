@@ -1,116 +1,90 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans&display=swap|EB+Garamond&display=swap|Archivo+Black&display=swap" rel="stylesheet">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV Lora Kumar</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $(".menu-open").click(function(){
-    $("ul.menu").toggleClass("show");
-	$(".menu-open").toggleClass("cross");
-  });
-  
-  
-  
-
-
-const observer = new IntersectionObserver(entries => {
-
-  entries.forEach(entry => {
-    const square = entry.target.querySelector('.wrapper');
-
-    if (entry.isIntersecting) {
-
-      square.classList.add('animated');
-	  return; // if we added the class, exit the function
-    }
-
-    // We're not intersecting, so remove the class!
-    square.classList.remove('animated');
-  });
-});
-
-observer.observe(document.querySelector('.skillbox'));
-
-
-});
-
-
-</script>
-
-</head>
-
-<body>
-<nav>
-<div class="menu-open">
-<div class="burger-line"></div>
-
-</div>
-
-<ul class="menu">
-
-	<li><a href="index.html">Home</a></li>
-	<li class="active"><a href="edu.html">Experience</a></li>
-	<li><a href="projects.html">Web</a></li>
-	<li><a href="design.html"> Illustration </a></li>
-	<li><a href="about.html">About me</a></li>
-	
-</ul>
-
-</nav>
-<div class="content narrower">
-
-<h2 class="exp">Where I have studied & worked</h2>
-
-<div class="graph">
-	<div class="line">.</div>
-		<div class="point five">.</div>
-	<div class="point four">.</div>
-	<div class="point tree">.</div>
-	<div class="point two">.</div>
-	<div class="point one">.</div>
-	
-	<div class="milestone one">
-		<h2><span>2011-10</span><i class="tuv">.</i>Start stydying in Technical University of varna</h2>
-		<p class="descr">In 2011 i joined Technical University of Varna. We started learning basics of programming, algorithms and logic.</p>
-	</div>
-		<div class="milestone two">
-		<h2><span>2013-07</span><i class="work">.</i>Start working in Sys Consulting ltd</h2>
-		<p class="descr"> My first job in programming.It was concentrated on fixing bugs and adding new functionalities.</p>
-	</div>
-	  <div class="milestone tree">
-		<h2><span>2015-07</span><i class="graduate">.</i>Graduate Technical University of Varna</h2>
-		<p class="descr">I graduated Technical University of Varna. </p>
-	</div>
- <div class="milestone four">
-		<h2><span>2015-08</span><i class="work">.</i>Start working in iGaming.com</h2>
-		<p class="descr">I started as a junior front end developer, working on wordpress sites, themes, and joining bigger project.</a></p>
-	</div>
- <div class="milestone five">
-		<h2><span>2022-11</span><i class="work">.</i>Left iGaming.com</h2>
-		<p class="descr">Im currently seeking a job.</a></p>
-	</div>		
-</div>
-  
-
-	
-	
-
-
-
-
-
-	
-
-
-
-
-</div>
-</body>
-
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans&display=swap|EB+Garamond&display=swap|Archivo+Black&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CV Lora Kumar</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+           $(".menu-open").click(function(){
+             $("ul.menu").toggleClass("show");
+         	$(".menu-open").toggleClass("cross");
+           });
+           
+           
+           
+         
+         
+         const observer = new IntersectionObserver(entries => {
+         
+           entries.forEach(entry => {
+             const square = entry.target.querySelector('.wrapper');
+         
+             if (entry.isIntersecting) {
+         
+               square.classList.add('animated');
+         	  return; // if we added the class, exit the function
+             }
+         
+             // We're not intersecting, so remove the class!
+             square.classList.remove('animated');
+           });
+         });
+         
+         observer.observe(document.querySelector('.skillbox'));
+         
+         
+         });
+         
+         
+      </script>
+   </head>
+   <body>
+      <nav>
+         <div class="menu-open">
+            <div class="burger-line"></div>
+         </div>
+         <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="edu.html">Experience</a></li>
+            <li><a href="projects.html">Web</a></li>
+            <li><a href="design.html"> Illustration </a></li>
+            <li><a href="about.html">About me</a></li>
+         </ul>
+      </nav>
+      <div class="content narrower">
+         <h2 class="exp">Where I have studied & worked</h2>
+         <div class="graph">
+            <div class="line">.</div>
+            <div class="point five">.</div>
+            <div class="point four">.</div>
+            <div class="point tree">.</div>
+            <div class="point two">.</div>
+            <div class="point one">.</div>
+            <div class="milestone one">
+               <h2><span>2011-10</span><i class="tuv">.</i>Start stydying in Technical University of varna</h2>
+               <p class="descr">In 2011 i joined Technical University of Varna. We started learning basics of programming, algorithms and logic.</p>
+            </div>
+            <div class="milestone two">
+               <h2><span>2013-07</span><i class="work">.</i>Start working in Sys Consulting ltd</h2>
+               <p class="descr"> My first job in programming.It was concentrated on fixing bugs and adding new functionalities.</p>
+            </div>
+            <div class="milestone tree">
+               <h2><span>2015-07</span><i class="graduate">.</i>Graduate Technical University of Varna</h2>
+               <p class="descr">I graduated Technical University of Varna. </p>
+            </div>
+            <div class="milestone four">
+               <h2><span>2015-08</span><i class="work">.</i>Start working in iGaming.com</h2>
+               <p class="descr">I started as a junior front end developer, working on wordpress sites, themes, and joining bigger project.</a></p>
+            </div>
+            <div class="milestone five">
+               <h2><span>2022-11</span><i class="work">.</i>Left iGaming.com</h2>
+               <p class="descr">Im currently seeking a job.</a></p>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
