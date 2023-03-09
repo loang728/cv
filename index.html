@@ -36,8 +36,6 @@
          observer.observe(document.querySelector('.codedesign'));
          
          });
-         
-         
       </script>
    </head>
    <body>
@@ -45,11 +43,16 @@
          <div class="menu-open">
             <div class="burger-line"></div>
          </div>
+         <div class="logo">
+            <span class="contactme"><a href="https://www.linkedin.com/in/lora-angelova-b6a321190/" target="_blank"><img src="images/linkedin.png" alt="" width="200" height="auto"></a></span>
+            <span class="contactme"><a href="https://www.behance.net/loang" target="_blank"><img src="images/behance.png" alt="" width="200" height="auto"> </a></span>
+            <span class="contactme"><a href="https://github.com/loang728/cv" target="_blank"><img src="images/github.png" alt="" width="200" height="auto"> </a></span>
+         </div>
          <ul class="menu">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="edu.html">Experience</a></li>
-            <li><a href="projects.html">Web</a></li>
-            <li><a href="design.html"> Illustration </a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="projects.html"> Code </a></li>
             <li><a href="about.html">About me</a></li>
          </ul>
       </nav>
@@ -58,29 +61,33 @@
             <div class="bg-holder design"></div>
             <div class="bg-holder diagram"></div>
             <div class="introduction">
-               <div class="img-frame"><img class="pentagon" src="images/lora.jpg" alt="" width="200" height="auto"/></div>
-               <span class="hello"> Hello, I’m&nbsp;Lora!</span><span class="cursor">I</span> 
-               <div class="three-dots">
-                  <div class="dot one">.</div>
-                  <div class="dot two">.</div>
-                  <div class="dot three">.</div>
+               <div class="intro-image">
+                  <div class="img-frame"><img class="pentagon" src="images/lora.jpg" alt="" width="300" height="auto"/></div>
                </div>
-               <p class="descr main">
-                  Im a front-end developer, designer and illustrator. I like to bring my ideas to life
-               </p>
+               <div class="description">
+                  <span class="hello"> Hello, I’m&nbsp;Lora!</span><span class="cursor">I</span> 
+                  <div class="three-dots">
+                     <div class="dot one">.</div>
+                     <div class="dot two">.</div>
+                     <div class="dot three">.</div>
+                  </div>
+                  <p class="descr main">
+                     I like making awsome websites.
+                  </p>
+                  <div class="two-buttons">
+                     <form class="cv-button" method="get" action="cv-lora.pdf">
+                        <button class="btn download" type="submit" target="_blank">
+                           Download CV
+                           <div class="arrow"></div>
+                        </button>
+                     </form>
+                     <a href="#tech" class="btn highlight view"> ViwProjects</a>
+                  </div>
+               </div>
             </div>
             <br>
-            <div class="two-buttons">
-               <form class="cv-button" method="get" action="cv-lora.pdf">
-                  <button class="download" type="submit" target="_blank">
-                     DOWNLOAD CV
-                     <div class="arrow"></div>
-                  </button>
-               </form>
-               <a href="#tech" class="view"> VIEW PORTFOLIO</a>
-            </div>
          </div>
-         <h2 id="tech"> Technologies</h2>
+         <h2 class="intro" id="tech"> Technologies & Skills</h2>
          <div class="wrapper-section">
             <div class="bg-holder ui"></div>
             <div class="bg-holder code"></div>
@@ -89,50 +96,30 @@
                   <li class="html"><span>HTML</span></li>
                   <li class="css"><span>CSS</span></li>
                   <li class="js"><span>JS</span></li>
-                  <li class="ps"><span>PS</span></li>
-                  <li class="ai"><span>Ai</span></li>
-                  <li class="figma"><span>Figma</span></li>
+                  <li class="wp"><span>WordPres</span></li>
+                  <li class="php"><span>PHP</span></li>
+               </ul>
+               <ul class="skills">
+                  <li><strong>Front-End</strong> development</li>
+                  <li><strong>Web Design</strong></li>
+                  <li><strong>Graphic Design</strong></li>
+                  <li>Microsoft office, Adobe Suite </li>
+                  <li>experience with Version control systems</li>
+                  <li> experience with <strong>WordPress</strong> </li>
+                  <li> experience with animations and motion </li>
                </ul>
             </div>
          </div>
          <br>
-         <div class="codedesign">
+         <div class=" codedesign">
             <ul class="wrapper widthHolder">
                <li class="design">
-                  <h3>design</h3>
-                  I like creating different visual content like ui/ux, icons, vectror and raster images, illustrations. 
-               </li>
-               <li class="code">
-                  <h3>code</h3>
-                  I develop, code and animate my website using different technologies. 
-               </li>
-            </ul>
-         </div>
-         <!--
-            <ul class="software">
-            <li class="code">code<span>.<span> </li>
-            <li class="ui">ui<span>.<span></li>
-            <li class="creativity">creativity<span>.<span></li>
-            <li class="art">art<span>.<span></li>
-            </ul>
-            
-            -->
-         <div class="wrapper-section">
-            <div class="bg-holder bac"></div>
-            <h2 id="skills"> Skills</h2>
-            <ul class="skills">
-               <li>bacachelor's degree of Software Technologies</li>
-               <li>experirence in Front-End development</li>
-               <li>experirence in Web Degign</li>
-               <li>understanding princeples of UX/UX, experience with UML</li>
-               <li>Microsoft office, Adobe Suite </li>
-               <li> skilled in illustration and graphic design</li>
-               <li> experience with 3D software (Blender) </li>
-               <li> experience with animations and motion </li>
-               <li>experience with Version control systems tools like SVN</li>
-               <li> good at organizing and optimizing </li>
-               <li> experience with wordpress </li>
-            </ul>
+                  <h3>Design</h3>
+                  Color theory, typography, alignment, proportion and hierarchy are essential for creating a good design. 
+               <li class="img-frame code">
+                  <h3>Code</h3>
+				  Code is what brings ideas to life. The main things I pay attention to, are: hierarchy, easiness of use, responsiveness, speed.
+            </ula
          </div>
          <div class="centerl">
             <p class="contactme"><img src="images/phone.png" alt="" width="200" height="auto"> <strong>+359877202401</strong></p>
