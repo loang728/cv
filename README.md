@@ -1,4 +1,4 @@
-# This is my Portfolio website. It contain static HTML pages
+# This is my Portfolio website. It contains static HTML pages
 Index
 Experience
 Design
@@ -6,7 +6,7 @@ Code
 
 
 1. Index page is a welcome page, with several interesting elements which demonstrate animation (mainly CSS).
-    Typescript animation "Hello, I'm Lora"- Its a span which expands its width in time frames, so it mimics typing text.
+    Welcome message animation "Hello, I'm Lora"- Its a span which expands its width in time frames, so it mimics typing text.
     Progress bars- each bar fill according to the technology.
     
 2. Experience - a growing timeline with mislesones , which appear consequently.
